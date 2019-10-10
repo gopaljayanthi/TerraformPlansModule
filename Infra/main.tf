@@ -14,3 +14,5 @@ resource "kubernetes_pod" "echo" {
 } } } }
 
 output "podName" { value =  "${kubernetes_pod.echo.metadata.0.name}"  }
+
+//
