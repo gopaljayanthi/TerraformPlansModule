@@ -1,5 +1,5 @@
 variable "aws_region" {
-	default = "us-east-1"
+	default = "us-east-2"
 }
 
 variable "vpc_cidr" {
@@ -13,7 +13,7 @@ variable "subnets_cidr" {
 
 variable "azs" {
 	type = "list"
-	default = ["us-east-1a", "us-east-1b"]
+	default = ["us-east-2a", "us-east-2b"]
 }
 
 
